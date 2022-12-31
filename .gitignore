@@ -73,7 +73,7 @@ common/autoinstallers/*/.npmrc
 .heft
 
 # compiled output
-**/dist
+/**/dist
 
 # Logs
 logs
