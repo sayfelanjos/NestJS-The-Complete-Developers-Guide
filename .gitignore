@@ -31,7 +31,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+**/node_modules
 jspm_packages/
 
 # Optional npm cache directory
@@ -60,7 +60,7 @@ jspm_packages/
 
 # IntelliJ IDEA project files; if you want to commit IntelliJ settings, this recipe may be helpful:
 # https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-.idea/
+**/.idea
 *.iml
 
 # Rush temporary files
@@ -73,8 +73,7 @@ common/autoinstallers/*/.npmrc
 .heft
 
 # compiled output
-/dist
-/node_modules
+**/dist
 
 # Logs
 logs
