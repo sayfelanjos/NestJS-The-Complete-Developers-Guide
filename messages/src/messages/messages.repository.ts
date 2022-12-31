@@ -17,6 +17,7 @@ export class MessagesRepository {
     const messages = JSON.parse(contents);
     const id = Math.floor(Math.random() * 900);
     messages[id] = { id, content };
+    console.log(messages);
     await writeFile("messages.json", JSON.stringify(messages));
   }
 }
