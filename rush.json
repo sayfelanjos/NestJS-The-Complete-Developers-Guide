@@ -428,6 +428,12 @@
        "projectFolder": "scratch",
        "reviewCategory": "studying",
        "tags": [ "backend-team" ]
-     }
+     },
+    {
+      "packageName": "di",
+      "projectFolder": "di",
+      "reviewCategory": "studying",
+      "tags": [ "backend-team" ]
+    }
   ]
 }
